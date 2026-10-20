@@ -1,5 +1,9 @@
 # Medication Leaflet RAG
 
+<p align="center">
+<img width="700" alt="Image" src="https://github.com/user-attachments/assets/58ffb9f4-f4e0-4104-a040-a511c4f3c3d1" />
+</p>
+
 A Python RAG application for asking questions about medication package leaflets. It extracts text from PDF leaflets, splits the text into overlapping chunks, embeds the chunks, retrieves relevant passages, and asks Gemini to answer from those passages with page references.
 
 The application currently supports dipyrone, hydrochlorothiazide, and losartan potassium. It selects a leaflet based on the medication name in the question. The router recognizes English names and common Portuguese names used in the source leaflets.
